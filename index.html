@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -40,7 +42,7 @@
         <img src="assets/header-bg.png" alt="header_bg" class="header-bg" />
         <div class="header__image__content">
           <h4>Price: 30Dt</h4>
-          <button class="btn">Buy now!</button>
+          <div id="paypal-button-container"></div>
         </div>
       </div>
       <div class="header__content">
